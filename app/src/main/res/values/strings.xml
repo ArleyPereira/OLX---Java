@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OLXClone</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">Início</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_meus_anuncios">Meus Anúncios</string>
+
+    <string name="valor">R$ %1$s</string>
+    <string name="data_publicacao">Publicado %1$s</string>
+    <string name="data_publicacao_bairro">%1$s, %2$s</string>
+
+    <string-array name="categorias">
+        <item>Selecione a categoria</item>
+        <item>Imóveis</item>
+        <item>Autos e peças</item>
+        <item>Para a sua casa</item>
+        <item>Eletrônicos e celulares</item>
+        <item>Serviços</item>
+        <item>Moda e beleza</item>
+    </string-array>
+
+</resources>
