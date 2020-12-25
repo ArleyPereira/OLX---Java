@@ -1,24 +1,24 @@
 ## Android Screenshots
 
-  Splash Activity                 |   Home        |  Meus Anúncios 
+  Splash                 |   Home        |  Anúncio
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.imgur.com/ViSPldw.jpg)|![](https://i.imgur.com/5Sgru8C.jpg)|![](https://i.imgur.com/4y3ngKV.jpg)
+![](https://i.imgur.com/ffK3mlX.jpg)|![](https://i.imgur.com/Iu2RsEq.jpg)|![](https://i.imgur.com/CRi7Sy3.jpg)
 
-  Favoritos                 |   Minha Conta         |  Meu Endereço
+  Estados                 |   Região         |  Categorias
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.imgur.com/4hCzGCZ.jpg)|![](https://i.imgur.com/N9MMtYG.jpg)|![](https://i.imgur.com/UkMS5o9.jpg)
+![](https://i.imgur.com/THGLW8a.jpg)|![](https://i.imgur.com/aBrhlYl.jpg)|![](https://i.imgur.com/QHwGAHt.jpg)
 
-  Anúncio                 |   Estados        |  Regiões
+  Filtro                 |   Meus Anúncios        |  Favoritos
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.imgur.com/bLyhaDx.jpg)|![](https://i.imgur.com/fc40RVd.jpg)|![](https://i.imgur.com/zwwqn0X.jpg)
+![](https://i.imgur.com/EGTIBbD.jpg)|![](https://i.imgur.com/mmxlSO7.jpg)|![](https://i.imgur.com/4TpUL2A.jpg)
 
-  Categorias                 |   Form Anúncio        |  Login
+  Minha Conta                 |   Perfil        |  Meu Endereço
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.imgur.com/yUKsqKa.jpg)|![](https://i.imgur.com/fPfaoux.jpg)|![](https://i.imgur.com/6bAdqc3.jpg)
+![](https://i.imgur.com/Ww4H7xh.jpg)|![](https://i.imgur.com/RfM9Mtf.jpg)|![](https://i.imgur.com/L18ZrSC.jpg)
 
-  Criar Conta                |   Recuperar Senha        |  Perfil
+  Login                |   Criar Conta        |  Recuperar Senha
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.imgur.com/BhCTfjk.jpg)|![](https://i.imgur.com/ytHAZah.jpg)|![](https://i.imgur.com/5uiYdwo.jpg)
+![](https://i.imgur.com/Z8zHOpN.jpg)|![](https://i.imgur.com/eRhr69p.jpg)|![](https://i.imgur.com/fbC5F1f.jpg)
 
 ### Download APK
 [Download](https://github.com/ArleyPereira/Delivery/blob/master/Delivery.apk)
@@ -51,7 +51,6 @@ app
             |      │──AdapterAnuncio
             |      │──AdapterCategoria
             |      │──AdapterEstado
-            |      │──AdapterGaleria
             |      │──AdapterRegiao
             |      └──SliderAdapter
             |
@@ -66,7 +65,7 @@ app
             |
             |───helper
             |      │──GetFirebase
-            |      └──Permissao
+            |      └──Preferencia
             |
             |───model
             |     │──Anuncio
@@ -81,6 +80,7 @@ app
             |
             └───Util
                   │──CategoriaList
+                  │──EstadoList
                   │──GetMask
                   │──RegiaoList
                   └──SPFiltro
