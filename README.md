@@ -20,9 +20,6 @@
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://i.imgur.com/Z8zHOpN.jpg)|![](https://i.imgur.com/eRhr69p.jpg)|![](https://i.imgur.com/fbC5F1f.jpg)
 
-### Download APK
-[Download](https://github.com/ArleyPereira/Delivery/blob/master/Delivery.apk)
-
 ## Directory Structure
 ```
 app
