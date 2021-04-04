@@ -452,20 +452,36 @@ public class FormAnuncioActivity extends AppCompatActivity {
 
     // Configura index das imagens
     private void configUpload(int requestCode, String caminho) {
-        Imagem imagem = new Imagem(caminho, requestCode);
+        int request = 0;
+        switch (requestCode) {
+            case 0:
+            case 3:
+                request = 0;
+                break;
+            case 1:
+            case 4:
+                request = 1;
+                break;
+            case 2:
+            case 5:
+                request = 2;
+                break;
+        }
+        
+        Imagem imagem = new Imagem(caminho, request);
         if (imagemList.size() > 0) {
 
             boolean encontrou = false;
             for (int i = 0; i < imagemList.size(); i++) {
 
-                if (imagemList.get(i).index == requestCode) {
+                if (imagemList.get(i).index == request) {
                     encontrou = true;
                 }
 
             }
 
             if (encontrou) { // já está na lista ( Atualiza )
-                imagemList.set(requestCode, imagem);
+                imagemList.set(request, imagem);
             } else { // Não está na lista ( Adiciona )
                 imagemList.add(imagem);
             }
