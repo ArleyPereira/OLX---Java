@@ -64,11 +64,9 @@ public class CategoriasActivity extends AppCompatActivity implements AdapterCate
 
     @Override
     public void itemClick(Categoria categoria) {
-        if(!categoria.getNome().equals("Todas as Categorias")){
-            SPFiltro.setFiltro(this, "categoria", categoria.getNome());
-        }else {
-            SPFiltro.setFiltro(this, "categoria", "");
-        }
+        Intent intent = new Intent();
+        intent.putExtra("categoriaSelecionada", categoria);
+        setResult(RESULT_OK, intent);
         finish();
     }
 
